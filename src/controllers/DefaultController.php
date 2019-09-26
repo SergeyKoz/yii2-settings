@@ -6,11 +6,11 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace pheme\settings\controllers;
+namespace ssoft\settings\controllers;
 
 use Yii;
-use pheme\settings\models\Setting;
-use pheme\settings\models\SettingSearch;
+use ssoft\settings\models\Setting;
+use ssoft\settings\models\SettingSearch;
 use pheme\grid\actions\ToggleAction;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -54,7 +54,7 @@ class DefaultController extends Controller
         return [
             'toggle' => [
                 'class' => ToggleAction::className(),
-                'modelClass' => 'pheme\settings\models\Setting',
+                'modelClass' => 'ssoft\settings\models\Setting',
                 //'setFlash' => true,
             ]
         ];

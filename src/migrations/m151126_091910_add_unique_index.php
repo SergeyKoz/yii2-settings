@@ -5,6 +5,8 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
+namespace ssoft\settings\migrations;
+
 use yii\db\Migration;
 
 class m151126_091910_add_unique_index extends Migration

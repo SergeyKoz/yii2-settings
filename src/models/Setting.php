@@ -5,12 +5,12 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace pheme\settings\models;
+namespace ssoft\settings\models;
 
 use Yii;
 use yii\helpers\Json;
 use yii\base\DynamicModel;
-use pheme\settings\Module;
+use ssoft\settings\Module;
 use yii\base\InvalidParamException;
 
 /**

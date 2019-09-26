@@ -1,5 +1,5 @@
 <?php
-namespace pheme\settings;
+namespace ssoft\settings;
 
 use Yii;
 use yii\base\Action;

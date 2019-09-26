@@ -6,15 +6,15 @@
  * Time: 下午6:00
  */
 
-namespace pheme\settings\tests;
+namespace ssoft\settings\tests;
 
-use pheme\settings\components\Settings;
+use ssoft\settings\components\Settings;
 use Yii;
 
 class ComponentSettingTest extends TestCase
 {
     /**
-     * @var \pheme\settings\components\Settings
+     * @var \ssoft\settings\components\Settings
      */
     public $setting;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace pheme\settings\tests;
+namespace ssoft\settings\tests;
 
-use pheme\settings\models\Setting;
+use ssoft\settings\models\Setting;
 use PHPUnit_Framework_TestCase;
 use Yii;
 use yii\db\Exception;
@@ -17,7 +17,7 @@ use yii\helpers\ArrayHelper;
 class TestCase extends PHPUnit_Framework_TestCase
 {
     /**
-     * @var \pheme\settings\models\Setting
+     * @var \ssoft\settings\models\Setting
      */
     public $model;
 
@@ -64,7 +64,7 @@ class TestCase extends PHPUnit_Framework_TestCase
                     ]
                 ],
                 'settings' => [
-                    'class' => 'pheme\settings\components\Settings'
+                    'class' => 'ssoft\settings\components\Settings'
                 ],
                 'cache'  =>[
                     'class' =>'yii\caching\ArrayCache'
@@ -72,7 +72,7 @@ class TestCase extends PHPUnit_Framework_TestCase
             ],
             'modules' => [
                 'settings' => [
-                    'class' => 'pheme\settings\Module',
+                    'class' => 'ssoft\settings\Module',
                     'sourceLanguage' => 'en'
                 ]
             ]
@@ -101,7 +101,7 @@ class TestCase extends PHPUnit_Framework_TestCase
                     ]
                 ],
                 'settings' => [
-                    'class' => 'pheme\settings\components\Settings'
+                    'class' => 'ssoft\settings\components\Settings'
                 ],
                 'cache'  =>[
                     'class' =>'yii\caching\ArrayCache'
@@ -109,7 +109,7 @@ class TestCase extends PHPUnit_Framework_TestCase
             ],
             'modules' => [
                 'settings' => [
-                    'class' => '\pheme\settings\Module',
+                    'class' => '\ssoft\settings\Module',
                     'sourceLanguage' => 'en'
                 ]
             ]

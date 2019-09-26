@@ -6,9 +6,9 @@
  * Time: 上午11:29
  */
 
-namespace pheme\settings\tests;
+namespace ssoft\settings\tests;
 
-use pheme\settings\models\SettingSearch;
+use ssoft\settings\models\SettingSearch;
 
 class SettingSearchTest extends TestCase
 {

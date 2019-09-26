@@ -6,7 +6,7 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace pheme\settings\components;
+namespace ssoft\settings\components;
 
 use yii\base\Component;
 use yii\caching\Cache;
@@ -21,11 +21,11 @@ class Settings extends Component
     /**
      * @var string settings model. Make sure your settings model calls clearCache in the afterSave callback
      */
-    public $modelClass = 'pheme\settings\models\BaseSetting';
+    public $modelClass = 'ssoft\settings\models\BaseSetting';
 
     /**
      * Model to for storing and retrieving settings
-     * @var \pheme\settings\models\SettingInterface
+     * @var \ssoft\settings\models\SettingInterface
      */
     protected $model;
 
@@ -54,7 +54,7 @@ class Settings extends Component
      *
      * @var string cache key
      */
-    public $cacheKey = 'pheme/settings';
+    public $cacheKey = 'ssoft/settings';
 
     /**
      * @var bool Whether to convert objects stored as JSON into an PHP array

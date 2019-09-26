@@ -7,11 +7,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use pheme\settings\Module;
+use ssoft\settings\Module;
 
 /**
  * @var yii\web\View $this
- * @var pheme\settings\models\SettingSearch $model
+ * @var ssoft\settings\models\SettingSearch $model
  * @var yii\widgets\ActiveForm $form
  */
 ?>

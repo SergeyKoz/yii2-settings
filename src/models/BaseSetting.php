@@ -5,7 +5,7 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace pheme\settings\models;
+namespace ssoft\settings\models;
 
 use Yii;
 use yii\helpers\Json;

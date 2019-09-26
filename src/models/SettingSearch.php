@@ -5,14 +5,14 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
-namespace pheme\settings\models;
+namespace ssoft\settings\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * SettingSearch represents the model behind the search form about `pheme\settings\models\Setting`.
+ * SettingSearch represents the model behind the search form about `ssoft\settings\models\Setting`.
  *
  * @author Aris Karageorgos <aris@phe.me>
  */

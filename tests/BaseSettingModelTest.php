@@ -6,7 +6,7 @@
  * Time: 下午3:56
  */
 
-namespace pheme\settings\tests;
+namespace ssoft\settings\tests;
 
 use Yii;
 

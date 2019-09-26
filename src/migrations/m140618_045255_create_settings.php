@@ -5,6 +5,8 @@
  * @license MIT http://opensource.org/licenses/MIT
  */
 
+namespace ssoft\settings\migrations;
+
 /**
  * @author Aris Karageorgos <aris@phe.me>
  */

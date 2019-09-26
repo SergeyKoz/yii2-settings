@@ -18,4 +18,4 @@ Yii::setAlias('@tests', __DIR__);
 
 Yii::setAlias('@migrate', dirname(__DIR__));
 
-Yii::setAlias('@pheme\settings\messages', dirname(__DIR__) . '/messages');
+Yii::setAlias('@ssoft\settings\messages', dirname(__DIR__) . '/messages');

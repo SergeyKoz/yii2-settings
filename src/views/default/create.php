@@ -6,27 +6,24 @@
  */
 
 use yii\helpers\Html;
-use pheme\settings\Module;
+use ssoft\settings\Module;
 
 /**
  * @var yii\web\View $this
- * @var pheme\settings\models\Setting $model
+ * @var ssoft\settings\models\Setting $model
  */
 
 $this->title = Module::t(
-        'settings',
-        'Update {modelClass}: ',
-        [
-            'modelClass' => Module::t('settings', 'Setting'),
-        ]
-    ) . ' ' . $model->section. '.' . $model->key;
-
+    'settings',
+    'Create {modelClass}',
+    [
+        'modelClass' => Module::t('settings', 'Setting'),
+    ]
+);
 $this->params['breadcrumbs'][] = ['label' => Module::t('settings', 'Settings'), 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
-$this->params['breadcrumbs'][] = Module::t('settings', 'Update');
-
+$this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="setting-update">
+<div class="setting-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

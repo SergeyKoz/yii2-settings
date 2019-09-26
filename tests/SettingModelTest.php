@@ -6,14 +6,14 @@
  * Time: 下午3:56
  */
 
-namespace pheme\settings\tests;
+namespace ssoft\settings\tests;
 
-use pheme\settings\models\Setting;
+use ssoft\settings\models\Setting;
 
 class SettingModelTest extends TestCase
 {
     /**
-     * @var \pheme\settings\models\Setting
+     * @var \ssoft\settings\models\Setting
      */
     public $model;
 
