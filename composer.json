@@ -31,5 +31,15 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ]
+    ],
+    "extra": {
+        "config-plugin": {
+            "common": [
+                "src/config/common.php"
+            ],
+            "console": [
+                "src/config/console.php"
+            ]
+        }
+    }
 }
